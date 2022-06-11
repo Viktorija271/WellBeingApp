@@ -1,0 +1,14 @@
+<kendo-menu [items]="items" (select)="onSelect($event)"></kendo-menu>
+<router-outlet></router-outlet>
+
+<!--<kendo-menu [items]="items" (select)="onSelect($event)">-->
+<!--  <ng-template kendoMenuItemLinkTemplate let-item="item" let-index="index">-->
+<!--        <span [kendoMenuItemLink]="index">-->
+<!--          {{ item.text }}-->
+<!--          <span-->
+<!--            *ngIf="item.items && item.items.length"-->
+<!--            [kendoMenuExpandArrow]="index"-->
+<!--          ></span>-->
+<!--        </span>-->
+<!--  </ng-template>-->
+<!--</kendo-menu>-->
